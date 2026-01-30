@@ -69,12 +69,22 @@ Double-click this file to install EchoFlow on your machine.
 
 ## 5. Configuration (API Key)
 
-EchoFlow uses **Groq** for ultra-fast inference. You need a free API Key to use the app.
+## 5. Configuration (API Key) (WICHTIG / IMPORTANT)
 
-1.  Get your free API Key at [console.groq.com](https://console.groq.com/keys).
-2.  Open **EchoFlow**.
-3.  Click the **Settings (Gear Icon)** in the top right.
-4.  Paste your API Key and save.
+**EchoFlow requires a valid Groq API Key to function.**
+
+### Method A: Use provided Developer Key
+We have provided a temporary API Key for you to test the app immediately.
+> ⚠️ **Note:** This key is valid for **1 month** and is subject to the **Rate Limits** of the free tier. If the app stops working or says "Rate limit exceeded", please switch to Method B.
+
+### Method B: Get your own FREE Key (Recommended)
+To ensure reliable, unlimited access, we recommend generating your own key (it takes 30 seconds and is currently free).
+
+1.  Go to [console.groq.com/keys](https://console.groq.com/keys) and log in.
+2.  Click **"Create API Key"**.
+3.  Copy the key (starts with `gsk_...`).
+4.  Open **EchoFlow** -> **Settings (Gear Icon)**.
+5.  Paste your key and save.
 
 ## 4. Design Decisions (Design-Entscheidungen)
 
