@@ -46,8 +46,8 @@ Double-click this file to install EchoFlow on your machine.
 **Option B: Build from Source**
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/echoflow.git
-   cd echoflow
+   git clone https://github.com/pkd-app/echo-flow.git
+   cd echo-flow
    ```
 
 2. **Install dependencies:**
@@ -66,6 +66,15 @@ Double-click this file to install EchoFlow on your machine.
    npm run tauri build
    ```
    *The installer will be generated in `src-tauri/target/release/bundle/nsis/`.*
+
+## 5. Configuration (API Key)
+
+EchoFlow uses **Groq** for ultra-fast inference. You need a free API Key to use the app.
+
+1.  Get your free API Key at [console.groq.com](https://console.groq.com/keys).
+2.  Open **EchoFlow**.
+3.  Click the **Settings (Gear Icon)** in the top right.
+4.  Paste your API Key and save.
 
 ## 4. Design Decisions (Design-Entscheidungen)
 
