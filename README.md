@@ -73,11 +73,7 @@ Double-click this file to install EchoFlow on your machine.
 
 **EchoFlow requires a valid Groq API Key to function.**
 
-### Method A: Use provided Developer Key
-We have provided a temporary API Key for you to test the app immediately.
-> ⚠️ **Note:** This key is valid for **1 month** and is subject to the **Rate Limits** of the free tier. If the app stops working or says "Rate limit exceeded", please switch to Method B.
-
-### Method B: Get your own FREE Key (Recommended)
+### Method: Get your own FREE Key (Recommended)
 To ensure reliable, unlimited access, we recommend generating your own key (it takes 30 seconds and is currently free).
 
 1.  Go to [console.groq.com/keys](https://console.groq.com/keys) and log in.
